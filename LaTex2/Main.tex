@@ -1,0 +1,26 @@
+\documentclass[letterpaper, 12pt]{report}
+\usepackage{apacite}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+
+\addtolength{\textwidth}{2cm}       %Ajustar margen de arriba
+\addtolength{\textheight}{4cm}      %Ajustar margen de abajo
+\addtolength{\hoffset}{-1cm}        %Ajustar margen del lado izquierdo
+\addtolength{\voffset}{-2cm}        %Ajustar margen del lado derecho
+
+\begin{document}
+    \bibliographystyle{apacite}
+    \input{Portada.tex}
+    \newpage
+    \input{Objetivos.tex}
+    \newpage
+    \input{Introduccion.tex}
+    \newpage
+    \input{Ensayo.tex}
+    \newpage
+    \input{Conclusiones.tex}
+    \newpage
+    \bibliography{Bibliografia}
+\end{document}
